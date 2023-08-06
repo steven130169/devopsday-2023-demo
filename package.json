@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/steven130169/devopsday-2023-demo/issues"
   },
-  "homepage": "https://github.com/steven130169/devopsday-2023-demo#readme"
+  "homepage": "https://github.com/steven130169/devopsday-2023-demo#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
 }
