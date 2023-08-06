@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/steven130169/devopsday-2023-demo#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
     "husky": "^8.0.0",
     "jest": "^29.6.2"
   }
