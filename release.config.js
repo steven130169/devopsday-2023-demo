@@ -20,12 +20,7 @@ module.exports = {
             'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
         },
       ],
-      [
         '@semantic-release/github',
-        {
-          GH_TOKEN:"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"
-        }
-      ]
     ],
     publishConfig: {
       access: 'public',
