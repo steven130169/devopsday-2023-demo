@@ -24,5 +24,6 @@ module.exports = {
     publishConfig: {
       access: 'public',
     },
+    ci: false,
   };
   
