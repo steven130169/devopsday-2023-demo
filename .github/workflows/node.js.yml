@@ -36,6 +36,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
+      env:
+        HUSKY: 0
     - run: npm test
     - run: npx semantic-release
       env:
